@@ -4,6 +4,17 @@ Este projeto tem como objetivo implementar um método de visualização para o a
 <br/>
 Inicialmente é gerado uma grade de nós, alguns livres e outros bloqueados, o algoritmo então calcula a melhor rota e mostra o caminho.
 
+## Testando o projeto
+
+Para executar o projeto você precisará ter o Expo instalado.
+
+Com o Expo instalado, faça o download do repositório, entre na pasta do arquivo e rode:
+
+```sh
+  npm start 
+```
+Após, você poderá escolher qual plataforma deseja testar. Para testar no próprio navegador clique em "Run in web browser".
+
 ## Tela inicial
 
 <h1 align="center">
