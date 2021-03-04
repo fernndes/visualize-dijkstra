@@ -2,8 +2,6 @@ export function dijkstra(grid, startNode, finishNode) {
 
     var path = []
 
-    var haveAnOpened = true
-
     startNode.estimative = 0
 
     const nodes = getArrayOfNodes(grid)
@@ -12,7 +10,7 @@ export function dijkstra(grid, startNode, finishNode) {
 
         findShortestEstimative(nodes)
 
-        var shortestValue = nodes.shift()
+        let shortestValue = nodes.shift()
 
         if (shortestValue.isWall === true) continue
 
